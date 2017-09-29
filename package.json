@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johntamayo88/webworkflow.git"
+    "url": "git+https://github.com/techbusker/webworkflow.git"
   },
   "keywords": [
     "Gulp",
