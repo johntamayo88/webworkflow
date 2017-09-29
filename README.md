@@ -1,36 +1,40 @@
 # Gulp Workflow
 
-
-## Usage
+### Usage
     git clone https://github.com/techbusker/webworkflow
 
-## Navigate inside the repo, open terminal and type:
+### Navigate inside the repo, open terminal and type:
     cd webworkflow
 
-## Install all dependencies (**NOTICE: NodeJs with npm must be installed globally in your workstation**)
+### Install all dependencies (**NOTICE: NodeJs with npm must be installed globally in your workstation**)
     sudo npm install
 
-## Run it in the terminal and type:
+### Run it in the terminal and type:
     gulp
 
 
 ## File Structure
 
-### Development Build
-        src/           ---          source folder
-        src/js/        ---          uncompressed js location
-        src/img/       ---          raw image location
-        src/sass       ---          scss file location
+    |—— webworkflow
+    |       |         ### Production Build
+    |       |—— dist/         ——     distribution folder
+    |       |—— dist/img      ——     raw images
+    |       |—— dist/js       ——     raw javascripts
+    |       |—— dist/css      ——     
+    |       |
+    |       |
+    |       |        ### DevelopmentBuild
+    |       |—— src/          ——     source folder
+    |       |—— src/js/       ——     minified js
+    |       |—— src/img/      ——     minified images
+    |       |—— src/sass      ——     sass
+    |
+    |—— .gitignore
+    |—— gulpfile.js
+    |—— package.json
+    |—— README.md
 
-
-### Production Build
-        dist/          ---          production folder
-        dist/img       ---          compressed images
-        dist/js        ---          compressed js
-        dist/css       ---          minified css
-
-
-## List of npm used
+### List of npm used
 
     gulp
     gulp-sass
