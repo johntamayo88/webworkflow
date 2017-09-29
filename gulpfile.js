@@ -62,7 +62,7 @@ gulp.task('browserSync', function(){
   })
 });
 
-gulp.task('watch', ['browserSync', 'css'], function(){
+gulp.task('default', ['browserSync', 'css'], function(){
   gulp.watch('src/sass/**/*.scss', ['css']);
   gulp.watch('src/**/*.+(html|js)', ['copy']);
 })
