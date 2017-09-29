@@ -1,2 +1,4 @@
-# Gulp Workflow September 2017
-This workflow is based on many tutorials I have seen in youtube.
+# Gulp Workflow
+
+## Usage
+    git clone https://github.com/techbusker/webworkflow

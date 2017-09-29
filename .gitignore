@@ -2,5 +2,5 @@
 node_modules
 .tmp
 .sass-cache
-dist/images/**
-src/images/**
+dist/img/**
+src/img/**
